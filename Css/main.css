@@ -4,7 +4,7 @@ padding: 0px;}
 
 body {
 font-family: 'Pacifico', cursive; /* changed font family to Pacifico, a cursive script */
-background-image:url(../images/mainbackground.jpg);
+background-image:url(../Images/mainbackground.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
