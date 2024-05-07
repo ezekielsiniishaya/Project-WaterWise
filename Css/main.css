@@ -1,104 +1,181 @@
-*{box-sizing: border-box;
-margin: 0px;
-padding: 0px;}
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
 
 body {
-font-family: 'Pacifico', cursive; 
-background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../images/mainbackground.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
-}
-
-
-.header {
-padding: 20px;
-text-align: center;
-color: #F8E231;
-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-.header h1 {
-
-font-size: 30px;
-text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-}
-span {position: relative;
-top: 15px;
-left: 550px;
-color: yellow;
-font-size: .8em;
-font-weight: bold;}
-
-.container {
-display: flex;
-flex-wrap: wrap;
-width: 100%;
-margin-top: 50px;
-color: #F0F0F0;
-justify-content: center;
-}
-
-.content {
-width: 90%;
-height: 200px;
-margin: 40px;
-overflow: auto;
-border-radius: 20px;
-padding: 20px;
-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
-transition: all 0.3s ease-in-out;
-}
-h2 {color: bisque;}
-
-.content:hover {
-transform: scale(1.05);
-box-shadow: 20px 0px 20px rgba(0, 0, 0, 0.2);
-}
-a{color: skyblue;
-text-decoration: none;}
-
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: white;
-    width:100%;
-    margin:0;
-    padding:0;
-    color:black;
-    font-family: 'Georgia', serif;
-}
-
-
-.header {
-padding: 5px;
-text-align: center;
-color: yellow;
-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-.header h1 {
-
-font-size: 15px;
-text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-}
-span {text-align:center;
-color: yellow;
-font-size: .8em;
-font-weight: bold;}
-
-.container{
-width: 100%;
-margin-top: 10px;
-justify-content: center;
-}
-
-.content {
-width: 100%;
-margin: 10px;
-border-radius: 10px;
-padding: 10px;
-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
-transition: all 0.3s ease-in-out;
-}
+    background: url('https://c1.wallpaperflare.com/preview/196/882/369/a-drop-of-water-zen-nature.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
+.main {
+  position: relative;
+}
+
+footer {
+  position: absolute bottom: 0;
+}
+
+.problem {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://c1.wallpaperflare.com/preview/196/882/369/a-drop-of-water-zen-nature.jpg');
+  
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+ h1 {
+  text-align: center;
+  
+  position: relative;
+  color: #F8E231;
+  text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  
+  border-radius: 10px;
+  
+  
+  }
+.header{
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/621/570/345/beach-twilight-darkness-night-wallpaper-preview.jpg);
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.headercontent {
+  font-size: 80%;
+}
+
+.display {
+  width: 50%;
+  float: left;
+  height: 400px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.content {
+  color: #F0F0F0;
+  width: 90%;
+  height: 200px;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+  overflow: auto;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+  transition: all 0.3s ease-in-out;
+}
+
+ol {
+  margin: 30px;
+}
+
+ul {
+  margin: 30px;
+}
+
+.contentonly {
+  height: 100%;
+}
+
+h2 {
+  color: bisque;
+  font-family: "Trirong", serif
+}
+
+.content:hover {
+  transform: scale(1.05);
+  box-shadow: 20px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.h2content {
+  font-size: 170%;
+}
+
+a {
+  color: #F0F0F0;
+  text-decoration: none;
+}
+
+#read {
+  color: skyblue;
+}
+
+.home {
+  color: skyblue;
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  color: whitesmoke;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    width: 100%;
+    height: 200%;
+    margin: 0px;
+    padding: 5px;
+    font-size: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+
+  .header {
+    padding: 5px;
+    
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  
+  }
+
+
+  .container {
+    width: 100%;
+    margin-top: 10px;
+    justify-content: center;
+    height: 100%;
+  }
+
+.content {
+  color: #F0F0F0;
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+ font-size: 100%;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+  transition: all 0.3s ease-in-out;
+}
+  
+.display {
+  width: 50%;
+  float: left;
+  height: 100%;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+p{margin: 10px;}
+}
