@@ -5,177 +5,126 @@
 }
 
 body {
-    background: url('https://c1.wallpaperflare.com/preview/196/882/369/a-drop-of-water-zen-nature.jpg');
+  font-family: "Pacifico", cursive;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), #0f0f0f4d),
+    url("../images/mainbackground.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
+  color: #f0f0f0;
+  font-size: 100%;
+}
 
-.main {
+.logo {
+  max-width: 10%;
+  max-height: 150%;
+  margin-bottom: -10px;
+}
+.topbar {
+  background-color: rgb(255, 255, 255);
+  padding-left: 10px;
   position: relative;
 }
-
-footer {
-  position: absolute bottom: 0;
+.global {
+  color: #00575ad2;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 130%;
+  font-weight: bold;
 }
-
-.problem {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://c1.wallpaperflare.com/preview/196/882/369/a-drop-of-water-zen-nature.jpg');
-  
-  background-size: cover;
-  background-attachment: fixed;
+.tagline {
+  color: red;
+  float: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 5px;
 }
-
- h1 {
-  text-align: center;
-  
-  position: relative;
-  color: #F8E231;
-  text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
-  
-  border-radius: 10px;
-  
-  
-  }
-.header{
-  background-image: url('../Images/headingbackground.jpg');
+.images {
   width: 100%;
-  height: 300px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  height: 650px;
+  display: flex;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), #0f0f0f4d);
 }
-.headercontent {
-  font-size: 80%;
+.combine {
+  position: relative;
 }
-
-.display {
-  width: 50%;
-  float: left;
-  height: 400px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
-  border-radius: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+.water {
+  position: absolute;
+  top: 80px;
+  color: rgb(255, 255, 255);
+  font-family: "Playfair Display", serif;
+  font-size: 300%;
+  text-decoration: underline;
+  text-decoration-color: #ffe789;
+  margin: 30px;
+  text-transform: capitalize;
+  text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.9);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
   padding: 20px;
+  border-radius: 15px;
 }
 
-.container {
+.thechallange {
+  color: rgba(245, 228, 152, 0.89);
+  font-size: 250%;
+  text-align: center;
+}
+.challenge {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  padding: 30px;
+  margin: 50px;
+  font-family: "Playfair Display", serif;
+  font-size: 120%;
+}
+.challenge:hover {
+  transform: scale(1.005);
+  box-shadow: 20px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.read {
+  color: skyblue;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+  color: #f8e231;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);
+  margin-top: 100px;
+  margin-bottom: 100px;
   width: 100%;
-  margin-top: 50px;
-  justify-content: center;
+  font-size: 130%;
 }
-
 .content {
-  color: #F0F0F0;
   width: 90%;
-  height: 200px;
-  margin-top: 40px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 30px;
-  overflow: auto;
+  margin: 40px;
   border-radius: 20px;
   padding: 20px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
   transition: all 0.3s ease-in-out;
+  color: whitesmoke;
+  position: relative;
 }
 
-ol {
-  margin: 30px;
+.content1 {
+  background-image: url(https://c1.wallpaperflare.com/preview/146/571/766/drought-aridity-aridness-dry.jpg);
+  object-fit: cover;
+  height: 400px;
 }
-
-ul {
-  margin: 30px;
+.problemcontent {
+  text-align: bottom;
 }
-
-.contentonly {
-  height: 100%;
-}
-
 h2 {
   color: bisque;
-  font-family: "Trirong", serif
 }
 
 .content:hover {
   transform: scale(1.05);
   box-shadow: 20px 0px 20px rgba(0, 0, 0, 0.2);
 }
-
-.h2content {
-  font-size: 170%;
-}
-
 a {
-  color: #F0F0F0;
+  color: #f0f0f0;
   text-decoration: none;
-}
-
-#read {
-  color: skyblue;
-}
-
-.home {
-  color: skyblue;
-  text-decoration: underline;
-}
-
-footer {
-  text-align: center;
-  color: whitesmoke;
-}
-
-@media only screen and (max-width: 768px) {
-  body {
-    width: 100%;
-    height: 200%;
-    margin: 0px;
-    padding: 5px;
-    font-size: 100%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-
-
-  .header {
-    padding: 5px;
-    
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-  
-  }
-
-
-  .container {
-    width: 100%;
-    margin-top: 10px;
-    justify-content: center;
-    height: 100%;
-  }
-
-.content {
-  color: #F0F0F0;
-  width: 100%;
-  height: 100%;
-  margin-top: 30px;
- font-size: 100%;
-  margin-bottom: 20px;
-  margin-left: 10px;
-  border-radius: 20px;
-  padding: 10px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
-  transition: all 0.3s ease-in-out;
-}
-  
-.display {
-  width: 50%;
-  float: left;
-  height: 100%;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
-  border-radius: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 20px;
-}
-p{margin: 10px;}
 }
