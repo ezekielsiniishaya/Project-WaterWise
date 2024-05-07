@@ -108,14 +108,27 @@ body {
   position: relative;
 }
 
-.content1 {
-  background-image: url(https://c1.wallpaperflare.com/preview/146/571/766/drought-aridity-aridness-dry.jpg);
+.content1  {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), #0f0f0f4d),url(https://c1.wallpaperflare.com/preview/146/571/766/drought-aridity-aridness-dry.jpg);
   object-fit: cover;
   height: 400px;
 }
-.problemcontent {
-  text-align: bottom;
+.content2{background-image: linear-gradient(rgba(0, 0, 0, 0.8), #0f0f0f4d),url('https://c4.wallpaperflare.com/wallpaper/1019/927/583/nature-landscape-waterfall-shrubs-huge-green-china-wallpaper-preview.jpg');
+  object-fit: cover;
+ height: 400px;
 }
+.problemcontent {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 10px;
+  }
+  .container2{
+    position: relative;
+  }
+.solution{position: absolute;
+  bottom:0 ;
+  padding-bottom: 10px;
+  }
 h2 {
   color: bisque;
 }
