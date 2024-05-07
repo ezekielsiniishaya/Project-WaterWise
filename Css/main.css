@@ -39,7 +39,7 @@ footer {
   
   }
 .header{
-  background-image: url(../Images/headingbackground.jpg);
+  background-image: url('../Images/headingbackground.jpg');
   width: 100%;
   height: 300px;
   background-repeat: no-repeat;
