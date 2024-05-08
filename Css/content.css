@@ -21,10 +21,10 @@ body {
 
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
-ul {
+ul ul {
   margin-top: 30px;
   margin-bottom: 30px;
-  padding-left: 30px;
+  padding-left: 50px;
 }
 .header h1 {
   color: rgb(226, 226, 159);
@@ -107,6 +107,7 @@ a {
 .external {
   text-decoration: underline;
   color: skyblue;
+  padding: 50px;
 }
 footer {
   text-align: center;
@@ -120,4 +121,17 @@ footer {
   margin: 30px auto 30px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
   border-radius: 15px;
+}
+.image1,
+.image2 {
+  width: 50%;
+  float: left;
+  height: 300px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.twoimage {
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
