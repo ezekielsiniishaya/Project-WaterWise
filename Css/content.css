@@ -1,111 +1,123 @@
-*{box-sizing: border-box;
-margin: 0px;
-padding: 0px;}
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
 
 body {
-font-family: 'Pacifico', cursive; /* changed font family to Pacifico, a cursive script */
-background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/mainbackground.jpg');
-      background-size: cover;
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
+  font-family: "Pacifico", cursive;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), #0f0f0f4d),
+    url("https://c4.wallpaperflare.com/wallpaper/490/818/473/shallow-focus-photography-of-water-drop-wallpaper-preview.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #f0f0f0;
+  font-size: 120%;
 }
-
 
 .header {
-padding: 20px;
-text-align: center;
+  padding: 20px;
+  text-align: center;
 
-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
-ul {margin-top: 20px;
-	margin-bottom: 20px;
-padding-left: 30px;}
+ul {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 30px;
+}
 .header h1 {
-font-size: 20px;
-color: bisque;
-text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  color: rgb(226, 226, 159);
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
-ol {padding-left: 40px;}
-span {position: relative;
-top: 15px;
-left: 550px;
-color: yellow;
-font-size: .8em;
-font-weight: bold;}
-p{margin-bottom: 20px;
-margin-top: 10px;}
-
-.content {display:
-
-width: 100%;
-margin-top: 50px;
-color: #F0F0F0;
-justify-content: center;
-width: 90%;
-border-radius: 20px;
-margin-right: auto;
-margin-left: auto;
-padding: 30px;
-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
-transition: all 0.3s ease-in-out;
+ol {
+  padding-left: 40px;
 }
-h2 {color: #F8E231; font-size: 2em;}
+span {
+  position: relative;
+  top: 15px;
+  left: 550px;
+  color: yellow;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+p {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.homepage {
+  margin: 50px;
+  text-decoration: underline;
+  color: skyblue;
+  text-align: center;
+}
+.content {
+  width: 100%;
+  margin-top: 50px;
+  color: #f0f0f0;
+  justify-content: center;
+  width: 90%;
+  border-radius: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+  padding: 30px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+  transition: all 0.3s ease-in-out;
+}
+h2 {
+  color: #f8e231;
+  font-size: 2em;
+}
 
 .content:hover {
-transform: scale(1.05);
-box-shadow: 20px 0px 20px rgba(0, 0, 0, 0.2);
-margin-top: 15 px;
-
+  transform: scale(1.05);
+  box-shadow: 20px 0px 20px rgba(0, 0, 0, 0.2);
+  margin-top: 15 px;
 }
 
-
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: white;
-    width:100%;
-    margin:0;
-    padding:0;
-    color:black;
-    font-family: 'Georgia', serif;
+h2 {
+  color: bisque;
 }
 
-
-.header {
-padding: 5px;
-text-align: center;
-color: yellow;
-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+.content:hover {
+  transform: scale(1.05);
 }
 
-.header h1 {
-
-font-size: 15px;
-text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+a {
+  color: #f0f0f0;
+  text-decoration: none;
 }
-span {text-align:center;
-color: yellow;
-font-size: .8em;
-font-weight: bold;}
-
-.container{
-width: 100%;
-margin-top: 10px;
-justify-content: center;
+.helpful {
+  margin: 30px;
+}
+.display {
+  width: 50%;
+  padding: 20px;
+  float: left;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  height: 400px;
+  margin-bottom: 50px;
 }
 
-.content {
-width: 100%;
-margin: 10px;
-border-radius: 10px;
-padding: 10px;
-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+.bottombar {
+  padding: 20px;
 }
-	}
-
-
-
-
-
-
-
+.external {
+  text-decoration: underline;
+  color: skyblue;
+}
+footer {
+  text-align: center;
+  margin: 30px;
+  font-size: 90%;
+}
+.contentimage {
+  width: 600px;
+  height: 300px;
+  display: block;
+  margin: 30px auto 30px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
